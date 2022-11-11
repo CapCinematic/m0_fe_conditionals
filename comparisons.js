@@ -15,6 +15,7 @@ var numberTeachers = 4
 var numberStudents = 20
 var stringTeachers = "4"
 var numberDogs = 0
+console.log("Is numberTeachers greater than numberStudents?", numberTeachers > numberStudents);
 
 // EXAMPLE: log the result of the comparison: is numberTeachers greater than numberStudents?
 console.log("Is numberTeachers greater than numberStudents?", numberTeachers > numberStudents);
@@ -52,21 +53,21 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 // Make sure YOU can explain it that way!
 
 console.log(4 < 9);
-// YOU DO: Explain.
+// YOU DO: This console log will convey to the code that 4 is less than 9.
 
 var books = 3;
 console.log(4 < books);
-// YOU DO: Explain.
+// YOU DO: A variable is declared to give books the option of a value, in this case the value is 3. The console.log will atempt to print 4 is less than our number of books but that will print as false.
 
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
-// YOU DO: Explain.
+// YOU DO: These lines of code are declaring two different variables, friends and siblings assigning them values of 6 and 2 respectivly. The log is stating there are more friends than siblings which will print True.
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
-// YOU DO: Explain.
+// YOU DO: Two variables are declared attendees with a value of 9 and meals with a value of 8. the log is stating that meals are not strictly equal to the number of attendees. Which is a problem. 
 
 
 // #-------------------
@@ -89,15 +90,27 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
-
+console.log(lovesToPlay && lovesTreats)
 
 // Determine if the dog loves to play and loves the dog park
-
+console.log(lovesToPlay !== lovesDogPark)
 
 // Determine if the dog loves to play or loves the dog park
-
+console.log(lovesToPlay || lovesDogPark)
 
 // Determine if the dog loves to play and is a puppy
-
+console.log(lovesToPlay && age)
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER:
+// Is numberTeachers greater than numberStudents? false
+// Is numberTeachers greater than numberStudents? false
+// true
+// false
+// true
+// true
+// false
+// true
+// true
+// true
+// true
+// 1
